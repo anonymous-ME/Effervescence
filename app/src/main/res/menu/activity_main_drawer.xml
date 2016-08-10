@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ue"
+            android:title="Upcoming Events" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/proshow"
+            android:title="Proshows"
+            />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/cato"
+            android:title="Event Categories" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ewd"
+            android:title="Event Date Wise" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ru"
+                android:title="Rate Us" />
+        </menu>
+    </item>
+
+</menu>
